@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
           $('body, html').animate({
             
             // the magic - scroll to section
-            "scrollTop": $('#heading'+scrollTo).offset().top
+            "scrollTop": $('#'+scrollTo).offset().top
           }, 1000 );
           return false;
           
