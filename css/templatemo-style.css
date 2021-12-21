@@ -604,7 +604,7 @@ footer a:hover {
 
 .masonry .item {
   display: inline-block;
-  float: left;
+  float: none;
 }
 
 .masonry .first-item {
@@ -812,7 +812,7 @@ footer a:hover {
 
 
 .more-about-us {
-  background-image: url(../img/about_us.png);
+  background-image: url(../img/auto01.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
