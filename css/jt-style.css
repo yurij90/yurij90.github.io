@@ -29,9 +29,6 @@ body, html {
 }
 
 .more-about-us .content img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
   width: 300px;
   border-radius: 50%;
