@@ -18,6 +18,15 @@ body, html {
   overflow-x: hidden;
 }
 
+.pricing-tables .table-item :first b {
+  font-style: normal;
+  font-weight: 300;  
+}
+
+.pricing-tables .table-item li {
+  font-style: normal;
+  font-weight: 150;
+}
 
 .page-heading {
   background-image: url(../img/heading_bg.png);
@@ -370,9 +379,6 @@ nav {
   opacity: 1;
   transform: translateY(0);
  }
-
-
-
 
 .popup-icon {
   position: fixed;
