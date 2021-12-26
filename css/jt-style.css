@@ -29,7 +29,7 @@ body, html {
 }
 
 img[src="img/profile.jpg"] {
-  display:block;
+  display:inline-block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
