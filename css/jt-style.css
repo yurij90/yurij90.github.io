@@ -43,7 +43,7 @@ img[src="img/profile.jpg"] {
   background-image: url(../img/heading_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   width: 100%;
   text-align: center;
 }
