@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #39FF14;
+	background-color: #1d870a;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -38,7 +38,7 @@ a.filled-button {
 
 a.filled-button:hover {
 	background-color: #fff;
-	color: #39FF14;
+	color: #1d870a;
 }
 
 a.border-button {
@@ -166,7 +166,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #39FF14;
+	background-color: #1d870a;
 	height: 46px;
 	line-height: 46px;
 }
