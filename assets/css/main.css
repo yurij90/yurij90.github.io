@@ -387,7 +387,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/furniture_assembly.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -572,7 +572,7 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: url(../images/done_bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1044,7 +1044,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 
-.page-heading {
+/* .page-heading {
 	text-align: center;
 	background-image: url(../images/page-heading-bg.jpg);
 	background-position: center center;
@@ -1052,7 +1052,7 @@ footer .contact-form button.filled-button:hover {
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
 	color: #fff;
-}
+} */
 
 .page-heading h1 {
 	text-transform: capitalize;
