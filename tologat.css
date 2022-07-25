@@ -1,0 +1,36 @@
+
+
+#game {
+    width: 600px; height: 600px;
+    position: relative;
+    background-color: rgba(226, 63, 63, 0.404);
+    margin: auto;
+  }
+.head {
+    text-align: center;
+    margin: auto;
+
+    padding: 10px;
+  }
+  .field {
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    background-color: rgba(61, 53, 53, 0.301);
+  }
+
+  .fieldBorder {
+    text-align: center;
+    margin: auto;
+    position:relative;
+    width: 600px;
+    height: 600px;
+  }
+  
+.box {
+  position:absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid #f8f8f88c;
+    box-sizing: border-box;
+}

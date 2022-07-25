@@ -5,38 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Szín tippelő</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="tologat.css">
+    <title>tili-toli puzzle</title>
 </head>
 
 <body>
-    <h1>Színkereső játék<span id="szinjelzo">RGB</span></h1>
-    <h2><span id="szinjelzo">Találd meg az RGB kód alapján a helyes színt! 3 tippelési lehetőséged van.</span></h2>
-    <div id="szalag">
-        <button id="visszaallit">Új szín</button>
-        <span id="uzenet"></span>
-        <button class="mode">Könnyű</button>
-        <button class="mode valasztott">Nehéz</button>
+    <div class="head">
+        <button onclick="start()" id="start">Start</button>
+        <button onclick="shakeIt()" id="shakeIt" >Shake IT Anim !!!</button>
+        <button onclick="shakeItOld()" id="shakeItOld" >Shake IT Old !!!</button>
     </div>
-    <div id="szalag2">
-        <!-- <button id="folytat"> </button> -->
-        <span id="tippek">Tippek: </span>
-        <span id="pontok">Pontok: </span>
+    <div id="fieldBorder" class="fieldBorder">
+       <div id="piecesBoard" ></div>
     </div>
-    <div id="doboz">
-        <div class="negyzet"></div>
-        <div class="negyzet"></div>
-        <div class="negyzet"></div>
-        <div class="negyzet"></div>
-        <div class="negyzet"></div>
-        <div class="negyzet"></div>
+    <div class="head">
+        <p id="new2"></p>
+        <p id="new22"></p>
+        <p id="new222"></p>
+        <p id="new2222"></p>
     </div>
 
-    <script type="text/javascript" src="script.js"></script>
-    <!-- 	<script type="text/javascript" src="colorGame.js"></script>
-     -->
+
+    <script src="tologat.js"></script>
 </body>
 
 </html>
