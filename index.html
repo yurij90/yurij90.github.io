@@ -1,314 +1,42 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Profitorient">
-  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-    rel="stylesheet">
-
-  <title>Profitorient</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/owl.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szín tippelő</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="preloader">
-    <div class="jumper">
-      <div></div>
-      <div></div>
-      <div></div>
+    <h1>Színkereső játék<span id="szinjelzo">RGB</span></h1>
+    <h2><span id="szinjelzo">Találd meg az RGB kód alapján a helyes színt! 3 tippelési lehetőséged van.</span></h2>
+    <div id="szalag">
+        <button id="visszaallit">Új szín</button>
+        <span id="uzenet"></span>
+        <button class="mode">Könnyű</button>
+        <button class="mode valasztott">Nehéz</button>
     </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- Header -->
-  <div class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-xs-12">
-          <ul class="left-info">
-            <li><a href="https://www.google.com/maps/search/Profitorient+Bt./"><i class="fa fa-clock-o"></i>Hét-Pén |
-                8:00-16:30</a></li>
-            <li><a href="tel:+36305184252"><i class="fa fa-phone"></i>06-30-518-4252</a></li>
-            <li><a href="https://www.ceginformacio.hu/cr9310957697" target="_blank"><i
-                  class="fa fa-building"></i>Céginformáció</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="right-icons">
-            <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-            <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-            <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-          </ul>
-        </div>
-      </div>
+    <div id="szalag2">
+        <!-- <button id="folytat"> </button> -->
+        <span id="tippek">Tippek: </span>
+        <span id="pontok">Pontok: </span>
     </div>
-  </div>
-
-  <header class="">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <h2>Profitorient</h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link current" href="#top">Kezdőlap
-                <span class="sr-only">(jelenlegi)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Szolgáltatások</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Rólunk</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Page Content -->
-  <!-- Banner Starts Here -->
-  <div class="main-banner header-text" id="top">
-    <div class="Modern-Slider">
-      <!-- Item -->
-      <div class="item item-1">
-        <div class="img-fill">
-          <div class="text-content">
-            <h6>Egyedi kedvező ajánlat</h6>
-            <h4>Kertépítés<br>&amp; Kerttervezés</h4>
-            <p>Dőljön hátra és élvezze munkánk gyümölcsét.</p>
-            <a href="tel:+36305184252" class="filled-button">Hívjon minket!</a>
-          </div>
-        </div>
-      </div>
-      <!-- // Item -->
-      <!-- Item -->
-      <div class="item item-2">
-        <div class="img-fill">
-          <div class="text-content">
-            <h6>Garanciavállalás</h6>
-            <h4>Festés<br>&amp; Burkolás</h4>
-            <p>A mai világban az idő a legnagyobb érték.<br> Mi levesszük a terhet a válláról.</p>
-            <a href="mailto:sarosibalintprofitorientbt@gmail.com" class="filled-button">Írjon nekünk!</a>
-          </div>
-        </div>
-      </div>
-      <!-- // Item -->
-      <!-- Item -->
-      <div class="item item-3">
-        <div class="img-fill">
-          <div class="text-content">
-            <h6>Bízza szakemberre</h6>
-            <h4>Bútorszerelés</h4>
-            <p>Minden műszaki <br>problémára egy <br>a megoldás:<br>
-              <bold>PROFITORIENT</bold>
-            </p>
-            <a href="https://www.ceginformacio.hu/cr9310957697" target="_blank" class="filled-button">Céginformáció</a>
-          </div>
-        </div>
-      </div>
-      <!-- // Item -->
+    <div id="doboz">
+        <div class="negyzet"></div>
+        <div class="negyzet"></div>
+        <div class="negyzet"></div>
+        <div class="negyzet"></div>
+        <div class="negyzet"></div>
+        <div class="negyzet"></div>
     </div>
-  </div>
-  <!-- Banner Ends Here -->
 
-  <div class="services" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Profitorient <em></em></h2>
-            <span>Kímélje a párját vagy ha nincs, akkor az energiáját. A mi cégünk megoldja a problémáját!</span>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-item">
-            <img src="assets/images/painting_colors.jpg" alt="Festés és gipszkartonozás">
-            <div class="down-content">
-              <h4>Festés és gipszkartonozás</h4>
-              <p>Mi nem húzzuk el a csíkot, mi megoldjuk a falai egyenességét és színeit.
-              </p>
-              <!-- <a href="" class="filled-button">Read More</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-item">
-            <img src="assets/images/lawn_mower_garden.jpg" alt="Kertépítés">
-            <div class="down-content">
-              <h4>Kertépítés</h4>
-              <p>Kertépítés öntözőrendszerrel és fakivágás. Tiszta udvar, rendes ház. Kertjét újjá varázsoljuk és, hogy
-                biztos ne
-                kelljen vele törődnie, mi a karbantartást is vállaljuk.
-              </p>
-              <!-- <a href="" class="filled-button">Read More</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-item">
-            <img src="assets/images/cladding_tile_kitchen.jpg" alt="Burkolás">
-            <div class="down-content">
-              <h4>Burkolás</h4>
-              <p>A vonalvezetés és a csempék egybefüggő vonalai nálunk egyeznek.
-              </p>
-              <!-- <a href="" class="filled-button">Read More</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="fun-facts">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="left-content">
-            <span>Profitorient</span>
-            <h2><em>A számok értünk</em> beszélnek.</h2>
-            <p>Partnereink megmutatják a felénk irányuló bizalmukat.<br><br>
-              Cégünk kimagasló és minőségben gazdag jól felszerelt építőipari szolgáltatást nyújt.
-              Lakását, házát külső-belső építészünk megtervezi ön helyett, ha nincs rá ideje.
-            </p>
-            <!-- <a href="" class="filled-button">Read More</a> -->
-          </div>
-        </div>
-        <div class="col-md-6 align-self-center">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="count-area-content">
-                <div class="count-digit">10</div>
-                <div class="count-title">Munkáink</div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="count-area-content">
-                <div class="count-digit">5</div>
-                <div class="count-title">Folyamatban lévő munkák</div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="count-area-content">
-                <div class="count-digit">50</div>
-                <div class="count-title">Telefonos megkeresések</div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="count-area-content">
-                <div class="count-digit">200</div>
-                <div class="count-title">Látogatottság</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="more-info" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="more-info-content">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/balint01.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-md-6 align-self-center">
-                <div class="right-content">
-                  <span>Bemutatkozás</span>
-                  <h2>Üdvözlöm <em>kedves</em> <br>leendő <em>partnerünk!</em></h2>
-                  <p>A lehetőségek városaként ismert nagy városunkban és környékén több mint 5 éve foglalkozunk generál
-                    kivitelezéssel.<br>
-                    Elértük azt a világot, ahol a kivitelezés nem szab határokat, csak az odafigyelés, pontosság és a
-                    minőségi kommunikáció.
-                    Ezért úgy döntöttünk összefogjuk azon emberek szakmai tudását, akiknek a munkájuk 5 csillagnál is
-                    magasabb kivitelezést értek el nálunk és megbízóinknál.<br><br>
-                    Üdvözlettel,<br> Sárosi Bálint Cégvezető
-                  </p>
-                  <!-- <a href="#" class="filled-button">Read More</a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="sub-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Copyright &copy; <a href="https://www.ceginformacio.hu/cr9310957697">2000 Profitorient Bt.</a>
-
-            - Design: Yurij <a rel="nofollow noopener" href="" target="_blank"></a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Additional Scripts -->
-  <script src="assets/js/jquery.singlePageNav.min.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/js/owl.js"></script>
-  <script src="assets/js/slick.js"></script>
-  <script src="assets/js/accordions.js"></script>
-  <script>
-    $(function () {
-      // Single Page Nav
-      $('#navbarResponsive').singlePageNav({
-        'offset': 100,
-        'filter': ':not(.external)'
-      });
-
-      // On mobile, close the menu after nav-link click
-      $('#navbarResponsive .navbar-nav .nav-item .nav-link').click(function () {
-        $('#navbarResponsive').removeClass('show');
-      });
-    });
-  </script>
-
-  <script language="text/Javascript">
-    cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-    function clearField(t) {                   //declaring the array outside of the
-      if (!cleared[t.id]) {                      // function makes it static and global
-        cleared[t.id] = 1;  // you could use true and false, but that's more typing
-        t.value = '';         // with more chance of typos
-        t.style.color = '#fff';
-      }
-    }
-  </script>
-
+    <script type="text/javascript" src="script.js"></script>
+    <!-- 	<script type="text/javascript" src="colorGame.js"></script>
+     -->
 </body>
 
 </html>
